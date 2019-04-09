@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <preference for="My\Subscription\Api\SubscriptionRepositoryInterface" type="My\Subscription\Model\Repository\SubscriptionRepository" />
+    <preference for="My\Subscription\Api\Data\SubscriptionInterface" type="My\Subscription\Model\Subscriber" />
+</config>
